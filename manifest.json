@@ -2,9 +2,13 @@
     "name": "Extent",
     "version": "1.0",
     "description": "Just a Test",
-    "manifest_version": 2
+    "manifest_version": 2,
     
-      "background": [
+     "permissions": [
+      "activeTab"
+    ],
+    
+      "content_scripts": [
     {
       "matches": ["chrome://newtab"],
       "js": ["extent.js"]
