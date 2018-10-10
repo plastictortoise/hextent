@@ -4,7 +4,7 @@
     "description": "Just a Test",
     "manifest_version": 2
     
-      "backgrounds": [
+      "background": [
     {
       "matches": ["chrome://newtab"],
       "js": ["extent.js"]
