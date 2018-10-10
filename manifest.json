@@ -9,4 +9,5 @@
       "matches": ["chrome://newtab"],
       "js": ["extent.js"]
     }
+    ]
   }
