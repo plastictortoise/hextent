@@ -1,1 +1,1 @@
-document.getElementsByTagName("body").style.background-color = #000000;
+document.getElementsByTagName("body").style.color = #000000;
