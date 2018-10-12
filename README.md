@@ -1,4 +1,4 @@
-<img src="https://raw.githubusercontent.com/SimpleBinary/Extent-Chrome/master/Hextent.png" width="75%" height="width" align="center">
+<img src="https://raw.githubusercontent.com/SimpleBinary/Extent-Chrome/master/Hextent.png" width="100%" height="width" align="center">
 <h1 align="center"><strong>Hextent</strong></h1>
 <h3 align="center">A wonderful new colour with every new tab, make your day full of colour with <strong>Hextent</strong></h3>
 <br>
