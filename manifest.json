@@ -1,0 +1,15 @@
+  {
+    "name": "Hextent",
+    "version": "1.0",
+    "description": "A new wonderful colour with every new tab, make your day full of colour with Hextent",
+    "manifest_version": 2,
+
+  "chrome_url_overrides" : {
+    "newtab": "extent.html"
+  },
+    "icons": {
+      "16": "Hextent.png",
+      "48": "Hextent.png",
+      "128": "Hextent.png"
+    }
+  }
