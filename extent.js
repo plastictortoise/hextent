@@ -73,5 +73,5 @@
         x = "00";
     }    
 
-    document.getElementById("heading").innerHTML = "#"+h+e+x;
+    document.getElementById("heading").textContent = "#"+h+e+x;
     document.getElementById("heading").style.color = 'rgb(' + ir + ',' + ig + ',' + ib + ')';
