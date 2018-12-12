@@ -7,4 +7,4 @@
 <h3 align="center">Chrome Compatible - How to use this Chrome Extention</h4>
 <p align="center">To use this Chrome Extension, download the zip file and extract it, navigate to <code>chrome://extentions</code> and select <code>Developer Mode</code>, press <code>Load Unpacked Extension</code>, choose the folder that you downloaded and then deselect <code>Developer Mode</code>. Open a new tab and enjoy.</p>
 <h3 align="center">Firefox compatible - How to use this Firefox Add-On</h4>
-<p align="center">To use on firefox, simply go to the <a href="https://addons.mozilla.org/en-US/firefox/addon/hextent/">Hextent</a> Extension Page</p>
+<p align="center">To use on firefox, simply go to the <a href="https://addons.mozilla.org/en-US/firefox/addon/hextent/" target="_blank">Hextent</a> Extension Page</p>
