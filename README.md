@@ -1,4 +1,4 @@
-<p align="right">
+<p align="center">
 <img src="https://raw.githubusercontent.com/SimpleBinary/Extent-Chrome/master/Hextent.png" width="50%" height="width">
 </p>
 <h1 align="center"><strong>Hextent</strong></h1>
