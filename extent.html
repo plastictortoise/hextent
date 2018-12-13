@@ -1,19 +1,43 @@
 <!DOCTYPE html>
   <html>
   <body>
-    <h1 id="heading"></h1>
+    <h1 id="heading" class="load"></h1>
+    <button>Copy Colour</button>
+    <title>New Tab</title>
     <link href="https://fonts.googleapis.com/css?family=Comfortaa:400,700" rel="stylesheet">
   <style>
     body {
       padding: 0;
       margin:0;
       background-color: #000000;
+      text-align: center;
     }
     h1 {
       font-size: 5vw;
       font-family: Comfortaa;
       text-align: center;
       padding: 35vh 0;
+      text-shadow: 0 0 0.8vw rgba(0, 0, 0, 0.4);
+    }
+    button {
+      outline: none;
+      border:none;
+      cursor: default;
+      background-color: #e8e8e8;
+      padding: 10px;
+      box-shadow: 0 0 0.8vw rgba(0, 0, 0, 0.4);
+    }
+    button:hover {
+      outline: none;
+      border:none;
+      cursor: default;
+      background-color: #b3b3b3;
+    }
+    button:active {
+      outline: none;
+      border:none;
+      cursor: copy;
+      background-color: #b3b3b3;
     }
   </style>
   <script src="/extent.js"></script>
