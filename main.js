@@ -1,3 +1,15 @@
+let hextent_colours = [];
+
+if (localStorage.getItem("hextent_colours") != null) {
+    hextent_colours = JSON.parse(localStorage.getItem("hextent_colours"));
+} else {
+    localStorage.setItem("hextent_colours", JSON.stringify(hextent_colours));
+}
+
+if (hextent_colours.includes(document.querySelector("h1").textContent)) {
+    document.getElementById("save-colour-button").textContent = "favorite";
+}
+
 function isDarkColor(rgb) {
     return Math.round((
       parseInt(rgb[0], 10) * 299 +
@@ -24,6 +36,19 @@ document.querySelector("h1").onclick = function copyToClipboard() {
 
     document.getElementById("message").classList.add("copy-animation");
 
+}
+
+document.querySelector("i").onclick = function saveColour() {
+    if (! hextent_colours.includes(document.querySelector("h1").textContent)) {
+        document.getElementById("save-colour-button").textContent = "favorite";
+        hextent_colours.push(document.getElementById("heading").textContent);
+        localStorage.setItem("hextent_colours", JSON.stringify(hextent_colours));
+    } else {
+        document.getElementById("save-colour-button").textContent = "favorite_border";
+        let filteredArray = hextent_colours.filter(e => e !== document.getElementById("heading").textContent);
+        hextent_colours = filteredArray;
+        localStorage.setItem("hextent_colours", JSON.stringify(hextent_colours));
+    }
 }
 
 document.body.onload = function popup() {
@@ -103,4 +128,5 @@ document.body.onload = function popup() {
     let inverted = isDarkColor([r, g, b]) ? "#ffffff" : "#000000";
 
     document.getElementById("heading").style.color = inverted;
+    document.getElementById("save-colour").style.color = inverted;
 }
